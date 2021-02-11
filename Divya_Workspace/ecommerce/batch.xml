@@ -1,0 +1,39 @@
+<suite name="Batch Execution">
+	<test name="Ajax Results">
+		<classes>
+			<class name="testNG.AjaxControl">
+				<methods>
+					<include name="f"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="GL Results">
+		<classes>
+			<class name="testNG.Goolgle_Languages">
+				<methods>
+					<include name="googleLinks"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="HMS_Login Results">
+		<classes>
+			<class name="testNG.HMS_Login_Logout">
+				<methods>
+					<include name="verifyLogin"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="HMS_Login_Logout Results">
+		<classes>
+			<class name="testNG.HMS_Login_Logout">
+				<methods>
+					<include name="verifyLogin"></include>
+					<include name="logout"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
